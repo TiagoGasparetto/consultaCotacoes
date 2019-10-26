@@ -16,7 +16,7 @@ app.use(express.static(publicDirectoryPath))
 
 app.get('', (req, res) => {
     res.render('index',{
-        title: 'Cotações da Manu',
+        title: 'Cotações da Manu!',
         author: 'Biharck'
     })
 })
